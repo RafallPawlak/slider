@@ -15,14 +15,18 @@
 }
 
 .mask {
-    -webkit-mask-image: url('../images/main.png');
+    -webkit-mask-image: url('../images/Ellipse_1.png') , 
+                        url('../images/Ellipse_2.png') ;
     mask-image: url('../images/Ellipse_1.png'),
                 url('../images/Ellipse_2.png');
- 
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    mask-position: 100px;
+-webkit-mask-origin: border-box;
+    mask-origin: border-box;
     
 }
+
+
+
 
  /* mask-image: url(../images/Ellipse_2.png);*/
