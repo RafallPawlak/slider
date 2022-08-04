@@ -14,3 +14,10 @@
     object-fit: fill;
 }
 
+.mask {
+    -webkit-mask-image: url(../images/main.png);
+    mask-image: url(../images/Ellipse_1.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
